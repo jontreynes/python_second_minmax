@@ -1,3 +1,6 @@
+# the commented prints were helpful for me to ensure the logic was stepping
+# in the right conditional
+
 if __name__ == "__main__":
 
     array = [80, 60, 70, 2, 3, 3, 20, 50]
@@ -14,18 +17,18 @@ if __name__ == "__main__":
         # print("second_smallest: %s" % second_smallest)
 
         if i > first_largest:
-            print("a")
+            # print("a")
             second_largest = first_largest
             first_largest = i
         elif i > second_largest and i < first_largest:
-            print("b")
+            # print("b")
             second_largest = i
         elif i < first_smallest:
-            print("c")
+            # print("c")
             second_largest = first_smallest
             first_smallest = i
         elif i < second_smallest and i > first_smallest:
-            print("d")
+            # print("d")
             second_smallest = i
 
     print("second_largest: %s" % second_largest)
