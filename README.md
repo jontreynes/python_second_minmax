@@ -1,0 +1,2 @@
+# Intro
+Python code for finding the second largest and second smallest number in an array
